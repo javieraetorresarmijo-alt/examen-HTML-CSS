@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nuestro centro | Forma-TIC</title>
+    <meta name="description" content="Historia y trayectoria de Forma-TIC, y equipo docente del centro.">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&display=swap">
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+
+    <header class="cabecera">
+        <!-- Imagen 1 -->
+        <figure class="imagen-cabecera imagen-cabecera--completa" style="--hero-img-h: 220px;">
+            <img src="imagenes/foto_2.webp" alt="Forma-TIC, centro de estudios en Valencia"
+                class="imagen-cabecera__foto">
+            <figcaption class="imagen-cabecera__pie imagen-cabecera__pie--lema">
+                <a href="index.html" class="marca marca--sobre-lema" aria-label="Forma-TIC, ir a inicio">
+                    <span class="marca__texto">Forma <span>-TIC</span></span>
+                </a>
+                <span class="lema__texto">Aprender tecnología, paso a paso</span>
+
+            </figcaption>
+
+
+        </figure>
+
+        <nav class="nav" aria-label="Menú principal">
+            <div class="contenedor">
+                <ul class="nav__lista" id="menu-principal">
+                    <li class="nav__item"><a class="nav__enlace" href="index.html">Forma-TIC</a>
+                    </li>
+                    <li class="nav__item"><a class="nav__enlace" href="quienes-somos.html">Quiénes somos</a></li>
+                    <li class="nav__item"><a class="nav__enlace" href="nuestro-centro.html">Nuestro centro</a></li>
+                    <li class="nav__item"><a class="nav__enlace" href="cursos.html">Nuestros cursos</a></li>
+                    <li class="nav__item"><a class="nav__enlace nav__enlace--activo" href="contacto.html">Contacto</a></li>
+                    <li class="nav__item"><a class="nav__enlace" href="redes-sociales.html">Redes sociales</a></li>
+
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="seccion">
+            <div class="contenedor">
+                <div class="seccion__cabecera">
+                    <p class="eyebrow">Contacto</p>
+                    <h1 class="hero__titulo">Hablemos de tu formación</h1>
+                    <p class="hero__texto">Escríbenos o pásate por el centro, estaremos encantados de resolver cualquier duda sobre nuestros cursos.</p>
+                </div>
+                <div class="contacto__grid">
+                    <div>
+                      
+                        <div class="mapa">
+                            <iframe title="Ubicación de Forma-TIC en Valencia" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d49255.203176808005!2d-0.4288001634531293!3d39.50432775570183!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd6048eb0b7542c1%3A0xc2f46de051ffcce1!2sEscuela%20Mastermedia!5e0!3m2!1ses-419!2ses!4v1785915695356!5m2!1ses-419!2ses" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+                        </div>
+                        
+
+
+
+                          <div class="datos-contacto">
+                            <div class="datos-contacto__fila">
+                                <span class="datos-contacto__etiqueta">Dirección</span>
+                                <span>Calle del Medio, 245 - 12 - 46000Población, Valencia</span>
+                            </div>
+
+                            <div class="datos-contacto__fila">
+                                <span class="datos-contacto__etiqueta">Teléfono</span>
+                                <span>964 324 234 - 664 456 873</span>
+                            </div>
+                            <div class="datos-contacto__fila">
+                                <span class="datos-contacto__etiqueta">Email</span>
+                                <span>info@misitio.com</span>
+                            </div>
+
+                            <div class="datos-contacto__fila">
+                                <span class="datos-contacto__etiqueta">Horario</span>
+                                <span>Lunes a Viernes, de 9:00 a 20:00</span>
+                            </div>
+                          </div>
+                    </div>
+
+                    <form class="formulario" novalidate>
+                        <h2 class="seccion__titulo" style="font-size: 1.3rem;">Solicita información</h2>
+                        <div class="campo">
+                            <label for="nombre" class="campo__etiqueta">Nombre y Apellidos</label>
+                            <input type="text" class="campo__control" id="nombre" name="nombre" required>
+                        </div>
+                        <div class="campo">
+                            <label for="email" class="campo__etiqueta">Correo electrónico</label>
+                            <input type="email" class="campo__control" id="email" name="email" required>
+                        </div> 
+                        <div class="campo">
+                            <label for="curso-interes" class="campo__etiqueta">Curso de interés</label>
+                            <input type="text" class="campo__control" id="curso-interes" name="curso-interes" placeholder="Ej. Programación con Python">
+                        </div>
+                        <div class="campo">
+                            <label for="mensaje" class="campo__etiqueta">Mensaje</label>
+                            <textarea class="campo__control" name="mensaje" required id="mensaje"></textarea>
+                        </div>
+                        <button class="boton boton--primario" type="submit">Enviar solicitud</button>
+                    </form>
+                   
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="pie">
+        <div class="contenedor pie__grid">
+            <div>
+                <h2 class="pie__titulo">Forma - TIC</h2>
+                <p class="pie__texto">Calle del Medio, 245-12 <br>46000 Población - Valencia</p>
+                <p class="pie__texto">Tel: 964 324 234 - 664456 873 <br>info@misitio.com</p>
+            </div>
+            <div>
+                <h2 class="pie__titulo">Enlaces</h2>
+                <ul class="pie__lista">
+                    <li><a class="pie__enlace" href="contacto.html">Contacto</a></li>
+                    <li><a class="pie__enlace" href="cursos.html">Cursos</a></li>
+                    <li><a class="pie__enlace" href="quienes-somos.html">Quiénes somos</a></li>
+                </ul>
+            </div>
+            <div>
+                <h2 class="pie__titulo">Síguenos</h2>
+                <div class="pie__redes">
+                    <a class="pie__red" href="https://www.instagram.com/escuelamastermedia/?hl=es" aria-label="Instagram"><i class='fab fa-instagram'
+                            style='font-size:36px'></i></a>
+                    <a class="pie__red" href="https://www.facebook.com/escuelamastermedia/about?_rdr" aria-label="Facebook"><i class='fab fa-facebook'
+                            style='font-size:36px'></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="contenedor pie__base">
+            <p>&#x24B8;2026 Forma-TIC. Todos los derechos reservados.</p>
+            <p>Proyecto académico - ejercicio de maquetación web.</p>
+        </div>
+
+    </footer>
+</body>
+
+</html>

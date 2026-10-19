@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiénes somos | Forma-TIC</title>
+    <meta name="description" content="Historia y trayectoria de Forma-TIC, y equipo docente del centro.">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&display=swap">
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+
+    <header class="cabecera">
+        <!-- Imagen 1 -->
+        <figure class="imagen-cabecera imagen-cabecera--completa" style="--hero-img-h: 220px;">
+            <img src="imagenes/foto_2.webp" alt="Forma-TIC, centro de estudios en Valencia"
+                class="imagen-cabecera__foto">
+            <figcaption class="imagen-cabecera__pie imagen-cabecera__pie--lema">
+                <a href="index.html" class="marca marca--sobre-lema" aria-label="Forma-TIC, ir a inicio">
+                    <span class="marca__texto">Forma <span>-TIC</span></span>
+                </a>
+                <span class="lema__texto">Aprender tecnología, paso a paso</span>
+
+            </figcaption>
+
+
+        </figure>
+
+        <nav class="nav" aria-label="Menú principal">
+            <div class="contenedor">
+                <ul class="nav__lista" id="menu-principal">
+                    <li class="nav__item"><a class="nav__enlace" href="index.html">Forma-TIC</a>
+                    </li>
+                    <li class="nav__item"><a class="nav__enlace nav__enlace--activo" href="quienes-somos.html">Quiénes somos</a></li>
+                    <li class="nav__item"><a class="nav__enlace" href="nuestro-centro.html">Nuestro centro</a></li>
+                    <li class="nav__item"><a class="nav__enlace" href="cursos.html">Nuestros cursos</a></li>
+                    <li class="nav__item"><a class="nav__enlace" href="contacto.html">Contacto</a></li>
+                    <li class="nav__item"><a class="nav__enlace" href="redes-sociales.html">Redes sociales</a></li>
+
+                </ul>
+            </div>
+        </nav>
+
+        <!-- SUBMENÚ -->
+        <div class="submenu" aria-label="Submenú del equipo docente">
+            <div class="contenedor">
+                <ul class="submenu__lista">
+                    <li><a class="submenu__enlace" href="#equipo">Todo el equipo</a></li>
+                    <li><a href="#docente-marta" class="submenu__enlace">Marta Solves</a></li>
+                    <li><a href="#docente-ricardo" class="submenu__enlace">Ricardo Peña</a></li>
+                    <li><a href="#docente-noa" class="submenu__enlace">Noa Ferrer</a></li>
+                    <li><a href="#docente-victor" class="submenu__enlace">Víctor Perez</a></li>
+                    <li><a href="#docente-carmen" class="submenu__enlace">Carmen Moreno</a></li>
+                </ul>
+            </div>
+
+        </div>
+
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="contenedor hero__grid" style="align-items: start;">
+                <div>
+                    <p class="eyebrow">Quiénes somos</p>
+                    <h1 class="hero__titulo">18 Años formando a futuras vocaciones tecnológicas</h1>
+                    <p class="hero__texto">Forma-TIC nació en Valencia como un pequeño centro de refuerzo escolar y ha
+                        crecido hasta convertirse en un referente en formación tecnológica para Primaria, ESO y
+                        Bachillerato.</p>
+                </div>
+                <!-- IMAGEN 3 FOTO GRUPAL EQUIPO DOCENTE -->
+                <figure class="imagen-cabecera" style="--hero-img-h:320px;">
+                    <img class="imagen-cabecera__foto" src="imagenes/foto_3.avif" alt="Equipo docente Forma-TIC">
+                    <figcaption class="imagen-cabecera__pie">El equipo de Forma-TIC</figcaption>
+                </figure>
+
+            </div>
+        </section>
+        <section class="seccion seccion--alterna">
+            <div class="contenedor">
+                <div class="seccion__cabecera">
+                    <p class="eyebrow">Nuestra historia</p>
+                    <h2 class="seccion__titulo">De academia de refuerzo a centro tecnológico</h2>
+                </div>
+                <div class="contenido-texto">
+                    <p>Forma-TIC abrió sus puertas como una pequeña academia de refuerzo escolar en el barrio, con dos
+                        aulas y un objetivo claro: que ningún alumno se quedara atrás por falta de acompañamiento.</p>
+                    <p>Con los años, la demanda de formación en informática y programación por parte de familias y
+                        centros educativos nos llevó a especializarnos también en tecnología, incorporando nuevas aulas,
+                        equipos y un equipo docente especializado en TIC</p>
+                    <p>Hoy combinamos ambas líneas: seguimos ofreciendo refuerzo en las asignaturas troncales y, además,
+                        formamos en programación, ofimática y competencias digitales adaptadas a cada etapa educativa.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section class="seccion" id="equipo">
+            <div class="contenedor">
+                <div class="seccion__cabecera">
+                    <p class="eyebrow">Equipo docente</p>
+                    <h2 class="seccion__titulo">Las personas detrás de cada clase</h2>
+                </div>
+                <div class="cuadricula cuadricula--4">
+                    <!-- IMAGEN MARTA -->
+                    <article class="ficha-persona" id="docente-marta">
+                        <div class="ficha-persona__foto">
+                            <img src="imagenes/foto_4.jpg" alt="Marta Solves, directora académica">
+                        </div>
+                        <div class="ficha-persona__cuerpo">
+                            <span class="ficha-persona__rol">Dirección académica</span>
+                            <h3 class="ficha-persona__nombre">Marta Solves</h3>
+                            <p>Más de 15 años en docencia de matemáticas y coordinación de programas de refuerzo.</p>
+                        </div>
+
+                    </article>
+                    <!-- IMAGEN RICARDO -->
+                    <article class="ficha-persona" id="docente-ricardo">
+                        <div class="ficha-persona__foto">
+                            <img src="imagenes/foto_7.jpg" alt="Ricardo Peña, profesor de programación">
+                        </div>
+                        <div class="ficha-persona__cuerpo">
+                            <span class="ficha-persona__rol">Programación</span>
+                            <h3 class="ficha-persona__nombre">Ricardo Peña</h3>
+                            <p>Ingeniero informático y profesor de programación para ESO y Bachillerato.</p>
+                        </div>
+                    </article>
+                    <!-- IMAGEN NOA -->
+                    <article class="ficha-persona" id="docente-noa">
+                        <div class="ficha-persona__foto">
+                            <img src="imagenes/foto_6.jpg" alt="Noa Ferrer,maestra de refuerzo de primaria">
+                        </div>
+                        <div class="ficha-persona__cuerpo">
+                            <span class="ficha-persona__rol">Refuerzo Primaria</span>
+                            <h3 class="ficha-persona__nombre">Noa Ferrer</h3>
+                            <p>Maestra especializada en pedagogía terapéutica y apoyo a la lectoescritura.</p>
+                        </div>
+                    </article>
+                    <!-- IMAGEN VICTOR -->
+                    <article class="ficha-persona" id="docente-victor">
+                        <div class="ficha-persona__foto">
+                            <img src="imagenes/foto_8.jpg" alt="Víctor Perez,formador en robótica educativa">
+                        </div>
+                        <div class="ficha-persona__cuerpo">
+                            <span class="ficha-persona__rol">Robótica educativa</span>
+                            <h3 class="ficha-persona__nombre">Víctor Pérez</h3>
+                            <p>Formador en robótica y pensamiento computacional para todas las edades.</p>
+                        </div>
+                    </article>
+                    <!-- IMAGEN Carmen -->
+                    <article>
+                        <div class="ficha-persona" id="docente-carmen">
+                            <div class="ficha-persona__foto">
+                                <img src="imagenes/foto_5.jpg" alt="Carmen Moreno,Diseñadora">
+                            </div>
+                            <div class="ficha-persona__rol">Diseñadora</div>
+                            <h3 class="ficha-persona__nombre">Carmen Moreno</h3>
+                            <p>Diseñadora gáfica, de interiores y de espacios, análisis crítico del color.</p>
+                        </div>
+                    </article>
+
+                </div>
+                <p class="contenido-texto" style="margin-top:26px;">Cada docente cuenta con su propia ficha ampliada
+                    dentro del submenú superior, donde se detalla su formación, especialidad y horario de tutorías.</p>
+            </div>
+        </section>
+    </main>
+    <footer class="pie">
+        <div class="contenedor pie__grid">
+            <div>
+                <h2 class="pie__titulo">Forma - TIC</h2>
+                <p class="pie__texto">Calle del Medio, 245-12 <br>46000 Población - Valencia</p>
+                <p class="pie__texto">Tel: 964 324 234 - 664456 873 <br>info@misitio.com</p>
+            </div>
+            <div>
+                <h2 class="pie__titulo">Enlaces</h2>
+                <ul class="pie__lista">
+                    <li><a class="pie__enlace" href="contacto.html">Contacto</a></li>
+                    <li><a class="pie__enlace" href="cursos.html">Cursos</a></li>
+                    <li><a class="pie__enlace" href="quienes-somos.html">Quiénes somos</a></li>
+                </ul>
+            </div>
+            <div>
+                <h2 class="pie__titulo">Síguenos</h2>
+                <div class="pie__redes">
+                    <a class="pie__red" href="https://www.instagram.com/escuelamastermedia/?hl=es"
+                        aria-label="Instagram"><i class='fab fa-instagram' style='font-size:36px'></i></a>
+                    <a class="pie__red" href="https://www.facebook.com/escuelamastermedia/about?_rdr"
+                        aria-label="Facebook"><i class='fab fa-facebook' style='font-size:36px'></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="contenedor pie__base">
+            <p>&#x24B8;2026 Forma-TIC. Todos los derechos reservados.</p>
+            <p>Proyecto académico - ejercicio de maquetación web.</p>
+        </div>
+
+    </footer>
+</body>
+
+</html>
